@@ -1,0 +1,127 @@
+body{
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  #enano-header {
+      background: #5bd1d7;
+      color: white;
+      height: 80px;
+  }	
+      #enano-header a {
+          color: white;
+      }
+  .login-container {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #e9f3f7;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+  }
+  
+   
+  
+  .wrapper {
+    margin-top: 150px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+  }
+  .left {
+    position: relative;
+    margin: 50px;
+    filter: drop-shadow(10px 10px 2px rgb(202, 223, 250));
+  
+  }
+  .panel {
+    width: 330px;
+    background-color: #fff;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    padding: 20px 40px;
+    margin: 5px 0;
+    display: flex;
+    
+  }
+  .login {
+    flex-direction: column;
+    align-items: center;
+    
+    
+  }
+  #logo {
+    width: 65%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .input-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .input-box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fafafa;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+  }
+  .input-box::placeholder {
+    color: #8a8a8a;
+    font-size: 12px;
+  }
+  .input-box:focus {
+    outline: none;
+    border: 1px solid #8a8a8a;
+  }
+  .button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 7px 0;
+    background-color: #81b7db;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+  }
+  .divider {
+    display: flex;
+    width: 100%;
+    font-size: 12px;
+    color: #8a8a8a;
+    font-weight: bold;
+    gap: 20px;
+    align-items: center;
+  }
+  .line {
+    flex: 1;
+    height: 1px;
+    background-color: #8a8a8a;
+  }
+  .forgot {
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .singup a {
+    margin-top: 15px;
+    color: #81b7db;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 5px;
+  }
+  
+  
+  @media (max-width: 860px) {
+    .left {
+      display: none;
+    }
+  }
