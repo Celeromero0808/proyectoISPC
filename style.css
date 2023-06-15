@@ -72,12 +72,13 @@ header {
 
 .footer-distributed h3{
 	color:  #ffffff;
-	font: normal 36px 'Open Sans', cursive;
+	font: normal 36px;
+  font-family: Arial;
 	margin: 0;
 }
 
 .footer-distributed h3 span{
-	color: #50c6d8;
+	color: #aa342b;
 }
 
 /* Footer links */
@@ -191,7 +192,7 @@ header {
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
-	background-color:  #000000;
+	background-color:  #1b0d0d;
 	border-radius: 2px;
 
 	font-size: 20px;
