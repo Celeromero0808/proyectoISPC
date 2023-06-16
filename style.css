@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    background-color: #0a0505;
+    background-color: #b44343;
     padding-top: 20px;
     box-shadow: 10px 5px 10px rgb(194, 191, 191);
 
@@ -37,7 +37,7 @@ header {
 }
 
 .hytext {
-    background-color: rgb(39, 20, 20);
+    background-color: rgb(202, 155, 155);
     padding: 1%;
     
 }
@@ -52,7 +52,7 @@ header {
 }
 
 .footer-distributed{ 
-	background: rgb(0, 0, 0);
+	background: rgb(201, 113, 113);
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
@@ -233,7 +233,7 @@ header {
 
 
 .hytext {
-    background-color: rgb(39, 20, 20);
+    background-color: rgb(194, 103, 103);
     padding: 1%;
     
 
