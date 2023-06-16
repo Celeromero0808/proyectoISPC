@@ -173,11 +173,12 @@ header {
 
 .footer-distributed .footer-right{
 	width: 20%;
+	background-color: #b44343;
 }
 
 .footer-distributed .footer-company-about{
 	line-height: 20px;
-	color:  #92999f;
+	color:  #000000;
 	font-size: 13px;
 	font-weight: normal;
 	margin: 0;
@@ -233,7 +234,7 @@ header {
 
 
 .hytext {
-    background-color: rgb(194, 103, 103);
+ 
     padding: 1%;
     
 
@@ -244,7 +245,7 @@ header {
   margin-left: 650px;
   margin-right: 200px;
   display: block;
-  font-family: Arial;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .ant {
