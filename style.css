@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    background-color: #b44343;
+    background-color: #aa1111;
     padding-top: 20px;
     box-shadow: 10px 5px 10px rgb(194, 191, 191);
 
@@ -37,7 +37,7 @@ header {
 }
 
 .hytext {
-    background-color: rgb(202, 155, 155);
+    background-color: rgb(78, 12, 12);
     padding: 1%;
     
 }
@@ -52,7 +52,7 @@ header {
 }
 
 .footer-distributed{ 
-	background: rgb(201, 113, 113);
+	background: rgb(78, 12, 12);
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
@@ -86,7 +86,7 @@ header {
 }
 
 .footer-distributed h3 span{
-	color: #aa342b;
+	color: #dd1709;
 }
 
 /* Footer links */
@@ -200,7 +200,6 @@ header {
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
-	background-color:  #1b0d0d;
 	border-radius: 2px;
 
 	font-size: 20px;
@@ -233,7 +232,7 @@ header {
 
 
 .hytext {
-    background-color: rgb(194, 103, 103);
+    background-color:rgb(78, 12, 12);
     padding: 1%;
     
 
