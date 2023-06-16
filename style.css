@@ -241,21 +241,37 @@ header {
 }
 
 .info {
-  margin-left: 650px;
-  margin-right: 200px;
   display: block;
   font-family: Arial;
+  margin-top: 50px;
+  padding: 60px;
 }
 
 .ant {
-  margin-left: 200px;
-  margin-right: 650px;
   display: block;
   font-family: Arial;
+  margin-top: 50px;
+  padding: 60px;
+  margin-left: 60px;
 }
 
 .antecedentes {
   text-align: right;
+  margin-right: 60px;
 }
 
+.img1 {
+	
+	width: 356px;
+	height: 252px;
+	float: left;
+	margin-right: 50px;
+}
 
+.img2 {
+	margin-top: 50px;
+	width: 356px;
+	height: 252px;
+	float: right;
+	margin-left: 50px;
+}
