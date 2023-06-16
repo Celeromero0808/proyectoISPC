@@ -11,6 +11,13 @@ header {
     
   }
 
+  header .img0{
+	width: 20%;
+	height: auto;
+	max-width: 20%;
+	display: block;
+  }
+
   header nav ul {
     list-style-type: none;
     margin: 0;
