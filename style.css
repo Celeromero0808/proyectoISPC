@@ -17,6 +17,8 @@ header {
 	left: 100%;
 	max-width: 15%;
 	display: block;
+	width: 300px;
+	width: 80%;
 	
   }
   header nav ul {
@@ -179,10 +181,6 @@ header {
 }
 
 
-.footer-distributed .footer-right{
-	width: 20%;
-	background-color: #b44343;
-}
 
 .footer-distributed .footer-company-about{
 	line-height: 20px;
