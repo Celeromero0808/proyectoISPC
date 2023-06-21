@@ -282,3 +282,85 @@ header {
 	float: right;
 	margin-left: 50px;
 }
+
+.bubbles {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .bubble {
+    position: absolute;
+    bottom: -50px; 
+    width: 50px;
+    height: 50px;
+    background-color: #00bfff; 
+    border-radius: 50%;
+    animation-name: bubble-rise;
+    animation-duration: 5s; 
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes bubble-rise {
+    0% {
+      bottom: -50px; 
+      opacity: 0.8; 
+    }
+    100% {
+      bottom: 100%; 
+      opacity: 0;
+    }
+  }
+  
+  .bubble1 {
+    left: 20%;
+    width: 60px;
+    height: 60px;
+    background-color: #f7f1f1;
+    animation-duration: 5s;
+  }
+  
+  .bubble2 {
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #eeeee5;
+    animation-duration: 4s;
+  }
+  
+  .bubble3 {
+    left: 80%;
+    width: 30px;
+    height: 30px;
+    background-color: #ebdeeb;
+    animation-duration: 6s;
+  }
+  
+  .bubble4 {
+    left: 30%;
+    width: 25px;
+    height: 25px;
+    background-color: #e8f3e8;
+    animation-duration: 3.5s;
+  }
+  
+  .bubble5 {
+    left: 60%;
+    width: 35px;
+    height: 35px;
+    background-color: #e3e3ec;
+    animation-duration: 4.5s;
+  }
+
+
+.hipervinculoanimacion img {
+  transition: transform 0.3s ease; /* Agrega una transición suave */
+}
+  
+.hipervinculoanimacion:hover img {
+  transform: scale(1.2); /* Escala la imagen al 120% */
+}
