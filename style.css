@@ -12,30 +12,32 @@ header {
   }
 
   header .img0{
-	width: 20%;
+	width: 15%;
 	height: auto;
-	max-width: 20%;
+	left: 100%;
+	max-width: 15%;
 	display: block;
+	
   }
 
   header nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: right;
+    text-align: center;
   }
 
   header nav ul li {
     display: inline;
     margin-right: 10px;
-    text-align: right;
+    text-align: center;
   }
 
   header nav ul li a {
     text-decoration: none;
     color: #faf4f4;
     padding: 5px 10px;
-    text-align: right;
+    text-align: center;
   }
 .titulo {
     text-align: center;
