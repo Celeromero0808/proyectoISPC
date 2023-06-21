@@ -4,11 +4,18 @@ body {
 }
 
 header {
-    background-color: #b44343;
+    background-color: #aa1111;
     padding-top: 20px;
     box-shadow: 10px 5px 10px rgb(194, 191, 191);
 
     
+  }
+
+  header .img0{
+	width: 20%;
+	height: auto;
+	max-width: 20%;
+	display: block;
   }
 
   header nav ul {
@@ -37,7 +44,7 @@ header {
 }
 
 .hytext {
-    background-color: rgb(202, 155, 155);
+    background-color: rgb(78, 12, 12);
     padding: 1%;
     
 }
@@ -52,7 +59,7 @@ header {
 }
 
 .footer-distributed{ 
-	background: rgb(201, 113, 113);
+	background: rgb(78, 12, 12);
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
@@ -86,7 +93,7 @@ header {
 }
 
 .footer-distributed h3 span{
-	color: #aa342b;
+	color: #dd1709;
 }
 
 /* Footer links */
@@ -201,7 +208,6 @@ header {
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
-	background-color:  #1b0d0d;
 	border-radius: 2px;
 
 	font-size: 20px;
@@ -242,21 +248,35 @@ header {
 }
 
 .info {
-  margin-left: 650px;
-  margin-right: 200px;
   display: block;
   font-family: 'Times New Roman', Times, serif;
 }
 
 .ant {
-  margin-left: 200px;
-  margin-right: 650px;
   display: block;
   font-family: Arial;
+  margin-top: 50px;
+  padding: 60px;
+  margin-left: 60px;
 }
 
 .antecedentes {
   text-align: right;
+  margin-right: 60px;
 }
 
+.img1 {
+	
+	width: 356px;
+	height: 252px;
+	float: left;
+	margin-right: 50px;
+}
 
+.img2 {
+	margin-top: 50px;
+	width: 356px;
+	height: 252px;
+	float: right;
+	margin-left: 50px;
+}
