@@ -35,9 +35,25 @@ header {
 
 
 .hytext {
-    background-color: rgb(78, 12, 12);
+   background-color: rgb(78, 12, 12);
+   padding: 5px;
 }
 
+.hytext nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hytext nav ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background-color: #cfb316; /* Color rojo más claro */
+}
 
 .hytext li {
   margin: 30px;
@@ -57,10 +73,11 @@ header nav ul li {
 }
 
 header nav ul li a {
+  color: white;
   text-decoration: none;
-  color: #faf4f4;
   padding: 5px 10px;
-  text-align: center;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 .bg {
