@@ -1,336 +1,92 @@
-body{
-    margin: 50%;
-    padding: 50%;
-  }
-  
-  #enano-header {
-      background: #5bd1d7;
-      color: white;
-      height: 80px;
-  }	
-      #enano-header a {
-          color: white;
-      }
-  .login-container {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    background-color: #e9f3f7;
-    font-family: Arial, Helvetica, sans-serif;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-  }
-  
-   
-  
-  .wrapper {
-    margin-top: 150px;
-    display: flex;
-    flex-grow: 1;
-    align-items: center;
-    justify-content: center;
-  }
-  .left {
-    position: relative;
-    margin: 50px;
-    filter: drop-shadow(10px 10px 2px rgb(202, 223, 250));
-  
-  }
-  .panel {
-    width: 330px;
-    background-color: #fff;
-    border: 1px solid #dedede;
-    border-radius: 2px;
-    padding: 20px 40px;
-    margin: 5px 0;
-    display: flex;
-    
-  }
-  .login {
-    flex-direction: column;
-    align-items: center;
-    
-    
-  }
-  #logo {
-    width: 65%;
-    margin-top: 20px;
-    margin-bottom: 30px;
-  }
-  
-  .input-form {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .input-box {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #fafafa;
-    border: 1px solid #dedede;
-    border-radius: 2px;
-  }
-  .input-box::placeholder {
-    color: #8a8a8a;
-    font-size: 12px;
-  }
-  .input-box:focus {
-    outline: none;
-    border: 1px solid #8a8a8a;
-  }
-  .button {
-    width: 100%;
-    margin: 10px 0;
-    padding: 7px 0;
-    background-color: #81b7db;
-    color: #fff;
-    border-radius: 5px;
-    border: none;
-    font-size: 14px;
-  }
-  .divider {
-    display: flex;
-    width: 100%;
-    font-size: 12px;
-    color: #8a8a8a;
-    font-weight: bold;
-    gap: 20px;
-    align-items: center;
-  }
-  .line {
-    flex: 1;
-    height: 1px;
-    background-color: #8a8a8a;
-  }
-  .forgot {
-    color: #000;
-    text-decoration: none;
-    font-size: 12px;
-  }
-  .singup a {
-    margin-top: 15px;
-    color: #81b7db;
-    text-decoration: none;
-    font-weight: 600;
-    margin-left: 5px;
-  }
-  
-  
-  @media (max-width: 860px) {
-    .left {
-      display: none;
-    }
-  }
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
 
+body {
+  background-color: #ffd966; /* Amarillo */
+  font-family: Arial, sans-serif;
+}
 
-  .footer-distributed{ 
-    background: rgb(0, 0, 0);
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-    box-sizing: border-box;
-    width: 100%;
-    text-align: left; 
-    font: bold 16px sans-serif;
-    padding: 55px 50px;
-      font-family: Open Sans;
-      margin-top: 100px;
-  }
-  
-  .footer-distributed .footer-left,
-  .footer-distributed .footer-center,
-  .footer-distributed .footer-right{
-    display: inline-block;
-    vertical-align: top;
-  }
-  
-  /* Footer Derecho */
-  
-  .footer-distributed .footer-left{
-    width: 40%;
-  }
-  
-  /* Logo */
-  
-  .footer-distributed h3{
-    color:  #ffffff;
-    font: normal 36px;
-    font-family: Arial;
-    margin: 0;
-  }
-  
-  .footer-distributed h3 span{
-    color: #aa342b;
-  }
-  
-  /* Footer links */
-  
-  .footer-distributed .footer-links{
-    color:  #ffffff;
-    margin: 20px 0 12px;
-    padding: 0;
-  }
-  
-  .footer-distributed .footer-links a{
-    display:inline-block;
-    line-height: 1.8;
-    font-weight:400;
-    text-decoration: none;
-    color:  inherit;
-  }
-  
-  .footer-distributed .footer-company-name{
-    color:  rgb(255, 255, 255);
-    font-size: 14px;
-    font-weight: normal;
-    margin: 0;
-  }
-  
-  /* Footer Centro */
-  
-  .footer-distributed .footer-center{
-    width: 35%;
-  }
-  
-  .footer-distributed .footer-center i{
-    background-color:  #33383b;
-    color: #ffffff;
-    font-size: 25px;
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 42px;
-    margin: 10px 15px;
-    vertical-align: middle;
-  }
-  
-  .footer-distributed .footer-center i.fa-envelope{
-    font-size: 17px;
-    line-height: 38px;
-  }
-  
-  .footer-distributed .footer-center p{
-    display: inline-block;
-    color: #ffffff;
-    font-weight:400;
-    vertical-align: middle;
-    margin:0;
-  }
-  
-  .footer-distributed .footer-center p span{
-    display:block;
-    font-weight: normal;
-    font-size:14px;
-    line-height:2;
-  }
-  
-  .footer-distributed .footer-center p a{
-    color:  lightseagreen;
-    text-decoration: none;;
-  }
-  
-  .footer-distributed .footer-links a:before {
-    content: "|";
-    font-weight:300;
-    font-size: 20px;
-    left: 0;
-    color: #fff;
-    display: inline-block;
-    padding-right: 5px;
-  }
-  
-  .footer-distributed .footer-links .link-1:before {
-    content: none;
-  }
-  
-  
-  .footer-distributed .footer-right{
-    width: 20%;
-  }
-  
-  .footer-distributed .footer-company-about{
-    line-height: 20px;
-    color:  #92999f;
-    font-size: 13px;
-    font-weight: normal;
-    margin: 0;
-  }
-  
-  .footer-distributed .footer-company-about span{
-    display: block;
-    color:  #ffffff;
-    font-size: 14px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .footer-distributed .footer-icons{
-    margin-top: 25px;
-  }
-  
-  .footer-distributed .footer-icons a{
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-    background-color:  #1b0d0d;
-    border-radius: 2px;
-  
-    font-size: 20px;
-    color: #ffffff;
-    text-align: center;
-    line-height: 35px;
-  
-    margin-right: 3px;
-    margin-bottom: 5px;
-  }
-  
-  @media (max-width: 880px) {
-  
-    .footer-distributed{
-      font: bold 14px sans-serif;
-    }
-  
-    .footer-distributed .footer-left,
-    .footer-distributed .footer-center,
-    .footer-distributed .footer-right{
-      display: block;
-      width: 100%;
-      margin-bottom: 40px;
-      text-align: center;
-    }
-  
-    .footer-distributed .footer-center i{
-      margin-left: 0;
-    }
-  
-  
-  .hytext {
-      background-color: rgb(39, 20, 20);
-      padding: 1%;
-      
-  
-    }
-  }
-  
-  .info {
-    margin-left: 650px;
-    margin-right: 200px;
-    display: block;
-    font-family: Arial;
-  }
-  
-  .ant {
-    margin-left: 200px;
-    margin-right: 650px;
-    display: block;
-    font-family: Arial;
-  }
-  
-  .antecedentes {
-    text-align: right;
-  }
-  
+.background-pattern {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('firefighter-pattern.png') repeat;
+  z-index: -1;
+}
+
+.login-container {
+  position: relative;
+  z-index: 1;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c82333;
+}
+
+button i {
+  margin-right: 5px;
+}
+
+.animated-button {
+  position: relative;
+  overflow: hidden;
+}
+
+.animated-button::before {
+  content: "";
+  position: absolute;
+  background: rgba(255, 255, 255, 0.3);
+  width: 120%;
+  height: 100%;
+  top: 0;
+  left: -10%;
+  opacity: 0;
+  transform: skewX(45deg);
+  transition: opacity 0.3s ease;
+}
+
+.animated-button:hover::before {
+  opacity: 1;
+  left: -30%;
+}
