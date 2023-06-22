@@ -5,51 +5,62 @@ body {
 
 header {
     background-color: #aa1111;
-    padding-top: 20px;
     box-shadow: 10px 5px 10px rgb(194, 191, 191);
-
-    
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
   }
 
-  header .img0{
-	width: 15%;
-	height: auto;
-	left: 100%;
-	max-width: 15%;
-	display: block;
-	width: 300px;
-	width: 80%;
-	
-  }
-  header nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-  }
+.logo-container{
+  order: 1;
+  margin-right: 10px;
+}
 
-  header nav ul li {
-    display: inline;
-    margin-right: 10px;
-    text-align: center;
-  }
+.logo{
+  max-width: 100px;
+  height: auto;
+}
 
-  header nav ul li a {
-    text-decoration: none;
-    color: #faf4f4;
-    padding: 5px 10px;
-    text-align: center;
-  }
+.titulo{
+  order: 2;
+  text-align: center;
+}
+
 .titulo {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: aliceblue;
 }
 
+
+
 .hytext {
     background-color: rgb(78, 12, 12);
-    padding: 1%;
-    
+}
+
+
+.hytext li {
+  margin: 30px;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 10px;
+  text-align: center;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #faf4f4;
+  padding: 5px 10px;
+  text-align: center;
 }
 
 .bg {
@@ -283,84 +294,4 @@ header {
 	margin-left: 50px;
 }
 
-.bubbles {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
   
-  .bubble {
-    position: absolute;
-    bottom: -50px; 
-    width: 50px;
-    height: 50px;
-    background-color: #2409c2; 
-    border-radius: 50%;
-    animation-name: bubble-rise;
-    animation-duration: 5s; 
-    animation-timing-function: linear; 
-    animation-iteration-count: infinite;
-  }
-  
-  @keyframes bubble-rise {
-    0% {
-      bottom: -50px; 
-      opacity: 0.8; 
-    }
-    100% {
-      bottom: 100%; 
-      opacity: 0;
-    }
-  }
-  
-  .bubble1 {
-    left: 20%;
-    width: 60px;
-    height: 60px;
-    background-color: #f7f1f1;
-    animation-duration: 5s;
-  }
-  
-  .bubble2 {
-    left: 50%;
-    width: 40px;
-    height: 40px;
-    background-color: #eeeee5;
-    animation-duration: 4s;
-  }
-  
-  .bubble3 {
-    left: 80%;
-    width: 30px;
-    height: 30px;
-    background-color: #ebdeeb;
-    animation-duration: 6s;
-  }
-  
-  .bubble4 {
-    left: 30%;
-    width: 25px;
-    height: 25px;
-    background-color: #e8f3e8;
-    animation-duration: 3.5s;
-  }
-  
-  .bubble5 {
-    left: 60%;
-    width: 35px;
-    height: 35px;
-    background-color: #e3e3ec;
-    animation-duration: 4.5s;
-  }
-
-
-.hipervinculoanimacion img {
-  transition: transform 0.3s ease; /* Agrega una transición suave */
-}
-  
-.hipervinculoanimacion:hover img {
-  transform: scale(1.2); /* Escala la imagen al 120% */
-}
