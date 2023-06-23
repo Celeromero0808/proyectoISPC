@@ -26,14 +26,13 @@ body {
   }
   
   .titulo {
-      text-align: center;
       font-family: Arial, Helvetica, sans-serif;
       color: aliceblue;
       text-align: center;
   }
   
   
-  .hytext nav ul {
+  .header hytext nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -49,7 +48,7 @@ body {
     background-color: #f0a709; 
   }
   
-  .hytext li {
+   .hytext li {
     margin: 30px;
   }
   
@@ -112,7 +111,8 @@ body {
   }
   
   .footer-distributed .footer-left a {
-    color: #dd1709;
+    color: #000000;
+    font: normal 20px Arial;
   }
   
   /* Logo */
@@ -272,3 +272,22 @@ body {
     }
   
   }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
