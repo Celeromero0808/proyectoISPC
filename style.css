@@ -8,7 +8,7 @@ header {
     box-shadow: 10px 5px 10px rgb(194, 191, 191);
     display: flex;
     align-items: end;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
 .logo-container{
@@ -22,23 +22,16 @@ header {
 }
 
 .titulo{
-  order: 2;
-  text-align: center;
+  order: 5;
 }
 
 .titulo {
-    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: aliceblue;
     position: relative;
+    text-align: center;
 }
 
-
-
-.hytext {
-   background-color: rgb(78, 12, 12);
-   padding: 5px;
-}
 
 .hytext nav ul {
   list-style: none;
@@ -53,7 +46,7 @@ header {
 
 nav ul li a:hover,
 nav ul li a.active {
-  background-color: #cfb316; /* Color rojo más claro */
+  background-color: #f0a709; 
 }
 
 .hytext li {
@@ -69,15 +62,16 @@ header nav ul {
 
 header nav ul li {
   display: inline;
-  margin-right: 10px;
+  margin-right: 20px;
   text-align: center;
 }
 
 header nav ul li a {
   color: white;
   text-decoration: none;
-  padding: 5px 10px;
-  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px 5px;
+  border-radius: 50%;
   transition: background-color 0.3s ease;
 }
 
@@ -88,6 +82,7 @@ header nav ul li a {
 	margin-top: 100px;
 	padding-bottom: 50px;
 	padding-top: 50px;
+
 }
 
 .footer-distributed {
@@ -96,7 +91,7 @@ header nav ul li a {
   box-sizing: border-box;
   width: 100%;
   text-align: left;
-  font: bold 16px sans-serif;
+  font: bold 20px sans-serif;
   padding: 55px 50px;
   font-family: Open Sans;
   margin-top: 100px;
@@ -117,7 +112,8 @@ header nav ul li a {
 }
 
 .footer-distributed .footer-left a {
-  color: #dd1709;
+  color: #000000;
+  font: normal 20px Arial;
 }
 
 /* Logo */
