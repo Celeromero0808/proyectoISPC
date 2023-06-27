@@ -1,0 +1,318 @@
+body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  header {
+      background-color: #aa1111;
+      box-shadow: 10px 5px 10px rgb(194, 191, 191);
+      display: flex;
+      align-items: end;
+      justify-content: space-around;
+    }
+  
+  .logo-container{
+    order: 1;
+    margin-right: 10px;
+  }
+  
+  .logo{
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .titulo{
+    order: 5;
+  }
+  
+  .titulo {
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      color: aliceblue;
+      text-align: center;
+  }
+  
+  
+  .hytext nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hytext nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  nav ul li a:hover,
+  nav ul li a.active {
+    background-color: #f0a709; 
+  }
+  
+  .hytext li {
+    margin: 30px;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 5px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .bg {
+      background-color: #f1efe3;
+      margin-left: 100px;
+      margin-right: 100px;
+      margin-top: 100px;
+      padding-bottom: 50px;
+      padding-top: 50px;
+  
+  }
+  
+  .footer-distributed {
+    background: rgb(63, 23, 23);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 20px sans-serif;
+    padding: 55px 50px;
+    font-family: Open Sans;
+    margin-top: 100px;
+    font-family: Arial;
+  }
+  
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  /* Footer Derecho */
+  
+  .footer-distributed .footer-left {
+    width: 40%;
+  }
+  
+  .footer-distributed .footer-left a {
+    color: #dd1709;
+  }
+  
+  /* Logo */
+  
+  .footer-distributed h3 {
+    color:  #ffffff;
+    font: normal 36px Arial;
+    margin: 0;
+  }
+  
+  .footer-distributed h3 span {
+    color: #dd1709;
+  }
+  
+  /* Footer links */
+  
+  .footer-distributed .footer-links {
+    color:  #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+  }
+  
+  .footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    font-weight: 400;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .footer-distributed .footer-company-name {
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  /* Footer Centro */
+  
+  .footer-distributed .footer-center {
+    width: 35%;
+  }
+  
+  .footer-distributed .footer-center i {
+    background-color:  rgb(59 12 12);
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+  }
+  
+  .footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+  }
+  
+  .footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    vertical-align: middle;
+    margin: 0;
+  }
+  
+  .footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+  }
+  
+  .footer-distributed .footer-center p a {
+    color:  #8B4513;
+    text-decoration: none;
+  }
+  
+  .footer-distributed .footer-links a:before {
+    content: "|";
+    font-weight: 300;
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .footer-distributed .footer-links .link-1:before {
+    content: none;
+  }
+  
+  .footer-distributed .footer-right {
+    width: 20%;
+    background-color: rgb(63 23 23);
+  }
+  
+  .footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  .footer-distributed .footer-company-about span {
+    display: block;
+    color:  #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .footer-distributed .footer-icons {
+    margin-top: 25px;
+  }
+  
+  .footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+  
+  @media (max-width: 880px) {
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+  
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+  
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+  
+    .hytext {
+        padding: 1%;
+        
+    }
+  
+  }
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1em; 
+    font-family: sans-serif; 
+    min-width: 450px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); 
+    margin-left: 400px;
+}
+
+.styled-table { 
+    border-collapse: collapse; 
+    margin: 25px 0; 
+    font-size: 1em; 
+    font-family: sans-serif; 
+    min-width: 450px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-left: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.styled-table th {
+    background-color: #f3f3f3;
+    padding: 12px 15px;
+    border: 1px solid #dddddd; 
+}
+
+.styled-table td {
+    padding: 12px 15px; 
+}
+
+.styled-table tbody tr { 
+    border-bottom: 1px solid #dddddd; 
+} 
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3; 
+} 
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 1px solid #dddddd; 
+}
