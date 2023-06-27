@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal</title>
-    <link rel="stylesheet" href="personal.css">
+    <title>registro</title>
 </head>
 <body>
     <header class="header">
+        <link rel="stylesheet" href="registro.css">
         <div class="logo-container">
-            <img src="../img/logobb.png" alt="Imagen" class="logo"> 
+          <img src="../img/logobb.png" alt="Imagen" class="logo"> 
         </div>
         <div class="titulo">
           <h1>BOMBEROS LA FALDA</h1>
@@ -17,51 +18,34 @@
         </div>
         <nav>
           <ul class="hytext">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="../login/login.html">Log In</a></li>
+            <li><a href="../index.html" >Inicio</a></li>
+            <li><a href="../proyectoISPC/login/login.html" class="active">Log In</a></li>
             <li><a href="../registro de siniestros/registro siniestros.html">Siniestro</a></li>
             <li><a href="../historial/historialsiniestro.html">Historial</a></li>
-            <li><a href="personal/personal.html" class="active">Personal</a></li>
+            <li><a href="Novedades/novedades.html">Novedades</a></li>
+ 
           </ul>
         </nav>
-    </header>
+      </header>
+    <h2>Registro de usuario</h2>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+  
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required><br><br>
+  
+        <label for="identificacion">Codigo de identificacion :</label>
+        <input type="text" id="identificacion" name="identificacion" required><br><br>
+  
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" name="contraseña" required><br><br>
 
-    <section>
-        <table class="styled-table">
-            <thead>
-                <tr>
-                    <th>DNI</th>
-                    <th>Nombre</th>
-                    <th>Apellido</th>
-                    <th>Rango</th> 
-                    <th>Contacto</th> 
-                </tr> 
-            </thead> 
-            <tbody> 
-                <tr> 
-                    <td>XX.XXX.XXX</td> 
-                    <td>Thiago</td> 
-                    <td>Coledani</td>
-                    <td>XX</td> 
-                    <td>3548 XXXXXX</td> 
-                </tr>
-                <td>XX.XXX.XXX</td> 
-                <td>Ernesto</td> 
-                <td>Soria</td>
-                <td>XX</td> 
-                <td>3548 XXXXXX</td> 
-            </tr> 
-            <tr> 
-                <td>XX.XXX.XXX</td> 
-                <td>Nuria</td>
-                <td>Siccardi</td>
-                <td>XX</td> 
-                <td>3548 XXXXXX</td> 
-            </tr> 
-            </tbody> 
-        </table>
-    </section>
+        <label for="DNI">DNI</label>
+        <input type="text" id="DNI" name="DNI" required>
 
+      <input type="submit" value="Registrar">
+    </form>
     <footer class="footer-distributed">  
         <div class="footer-left"> 
             <h3>Bomberos<span> La Falda </span></h3>    
@@ -102,8 +86,6 @@
             </div>
         </div>
        
-    </footer>
+      </footer>
 </body>
-
-    </section>
 </html>
