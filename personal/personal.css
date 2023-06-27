@@ -26,13 +26,14 @@ body {
   }
   
   .titulo {
+      text-align: center;
       font-family: Arial, Helvetica, sans-serif;
       color: aliceblue;
       text-align: center;
   }
   
   
-  .header hytext nav ul {
+  .hytext nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -48,7 +49,7 @@ body {
     background-color: #f0a709; 
   }
   
-   .hytext li {
+  .hytext li {
     margin: 30px;
   }
   
@@ -111,8 +112,7 @@ body {
   }
   
   .footer-distributed .footer-left a {
-    color: #000000;
-    font: normal 20px Arial;
+    color: #dd1709;
   }
   
   /* Logo */
@@ -272,44 +272,47 @@ body {
     }
   
   }
-  table {
+
+.styled-table {
     border-collapse: collapse;
-    width: 100%;
-  }
-  
-  th, td {
-    padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-  
-  h1 {
-    text-align: center;
-  }
-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-family: Arial, sans-serif;
+    margin: 25px 0;
+    font-size: 1em; 
+    font-family: sans-serif; 
+    min-width: 450px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); 
+    margin-left: 400px;
 }
 
-th{
-  background-color: #6e430ac9;
-  text-align: left;
-  padding: 5px;
-  border: 1px solid #ddd;
+.styled-table { 
+    border-collapse: collapse; 
+    margin: 25px 0; 
+    font-size: 1em; 
+    font-family: sans-serif; 
+    min-width: 450px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-left: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-
-td {
-  padding: 8px;
-  border: 1px solid rgb(134, 133, 117);
+.styled-table th {
+    background-color: #f3f3f3;
+    padding: 12px 15px;
+    border: 1px solid #dddddd; 
 }
 
+.styled-table td {
+    padding: 12px 15px; 
+}
 
-tr:nth-child(even) {
-  background-color: #f9f9f9;
+.styled-table tbody tr { 
+    border-bottom: 1px solid #dddddd; 
+} 
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3; 
+} 
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 1px solid #dddddd; 
 }

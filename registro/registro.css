@@ -1,7 +1,57 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
 body {
-  padding: 0;
-  margin: 0;
-}
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+  }
+
+  h2 {
+    text-align: center;
+    color: #333333;
+  }
+
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"]
+  input[type="identificacion"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #555555;
+  }
 
 header {
     background-color: #aa1111;
@@ -28,7 +78,6 @@ header {
 .titulo {
     font-family: Arial, Helvetica, sans-serif;
     color: aliceblue;
-    position: relative;
     text-align: center;
 }
 
@@ -112,8 +161,7 @@ header nav ul li a {
 }
 
 .footer-distributed .footer-left a {
-  color: #000000;
-  font: normal 20px Arial;
+  color: #dd1709;
 }
 
 /* Logo */
@@ -274,38 +322,92 @@ header nav ul li a {
 
 }
 
-.info {
+.background-pattern {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('firefighter-pattern.png') repeat;
+  z-index: -1;
+}
+
+.login-container {
+  position: relative;
+  z-index: 1;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
   display: block;
-  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
 }
 
-.ant {
-  display: block;
-  font-family: Arial;
-  margin-top: 50px;
-  padding: 60px;
-  margin-left: 60px;
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
-.antecedentes {
-  text-align: right;
-  margin-right: 60px;
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.img1 {
-	
-	width: 356px;
-	height: 252px;
-	float: left;
-	margin-right: 50px;
+button:hover {
+  background-color:#cfb316;
 }
 
-.img2 {
-	margin-top: 50px;
-	width: 356px;
-	height: 252px;
-	float: right;
-	margin-left: 50px;
+button i {
+  margin-right: 5px;
 }
 
-  
+.animated-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #c82333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.animated-button:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: left 0.3s;
+}
+
+.animated-button:hover:before {
+  left: 0;
+}
+
