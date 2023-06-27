@@ -82,58 +82,118 @@ body {
   
   }
   
-h1{
-  text-align: center;
-}
+  h1 {
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #000000;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="time"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    color: #000000;
+    resize: vertical;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: #dc3545;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #cfb316;
+  }
+  
+  .animated-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #c82333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .animated-button:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: left 0.3s;
+  }
+  
+  .animated-button:hover:before {
+    left: 0;
+  }
 
-form{
-  max-width: 500px;
-  margin: 0 auto;
-  background-color: #da6947;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgb(0, 0, 0.1);
-}
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
 
-label{
-  display: block;
-  margin-bottom: 5px;
-}
-
-input[type="text"]
-input[type="date"]
-input[type="time"]
-select,
-textarea{
-  width: 100%;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  margin-bottom: 10px;
-}
-
-textarea{
-  resize: vertical;
-}
-
-input[type="submit"] {
-  background-color: #4CAF50;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: #45a049;
-}
-
-.error {
-  color: red;
-  font-size: 12px;
-  margin-top: 5px;
-}
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .container label,
+  .container input,
+  .container select,
+  .container textarea {
+    width: calc(50% - 10px);
+  }
+  
+  .container textarea {
+    width: 100%;
+  }
+  
+  @media (max-width: 600px) {
+    .container label,
+    .container input,
+    .container select,
+    .container textarea {
+      width: 100%;
+    }
+  }
 
   .footer-distributed {
     background: rgb(63, 23, 23);
