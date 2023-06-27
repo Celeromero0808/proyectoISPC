@@ -1,89 +1,85 @@
 body {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+    background-color: #aa1111;
+    box-shadow: 10px 5px 10px rgb(194, 191, 191);
+    align-items: end;
+    justify-content: space-around;
   }
-  
-  header {
-      background-color: #aa1111;
-      box-shadow: 10px 5px 10px rgb(194, 191, 191);
-      display: flex;
-      align-items: end;
-      justify-content: space-around;
-    }
-  
-  .logo-container{
-    order: 1;
-    margin-right: 10px;
-  }
-  
-  .logo{
-    max-width: 100px;
-    height: auto;
-  }
-  
-  .titulo{
-    order: 5;
-  }
-  
-  .titulo {
-      font-family: Arial, Helvetica, sans-serif;
-      color: aliceblue;
-      position: relative;
-      text-align: center;
-  }
-  
-  
-  .hytext nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .hytext nav ul li {
-    display: inline-block;
-    margin-left: 10px;
-  }
-  
-  nav ul li a:hover,
-  nav ul li a.active {
-    background-color: #f0a709; 
-  }
-  
-  .hytext li {
-    margin: 30px;
-  }
-  
-  header nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+
+
+.logo{
+  max-width: 100px;
+  height: auto;
+  margin-left: 620px;
+}
+
+.titulo{
+  order: 5;
+}
+
+.titulo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    position: relative;
     text-align: center;
-  }
-  
-  header nav ul li {
-    display: inline;
-    margin-right: 20px;
-    text-align: center;
-  }
-  
-  header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 10px 5px;
-    border-radius: 50%;
-    transition: background-color 0.3s ease;
-  }
-  
-  .bg {
-      background-color: #f1efe3;
-      margin-left: 100px;
-      margin-right: 100px;
-      margin-top: 100px;
-      padding-bottom: 50px;
-      padding-top: 50px;
-  
-  }
+}
+
+
+.hytext nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hytext nav ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background-color: #f0a709; 
+}
+
+.hytext li {
+  margin: 30px;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+  text-align: center;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 5px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.bg {
+	background-color: #f1efe3;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 100px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+
+}
   
   .footer-distributed {
     background: rgb(63, 23, 23);
