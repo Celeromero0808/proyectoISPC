@@ -1,0 +1,444 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+  }
+
+  h2 {
+    text-align: center;
+    color: #333333;
+  }
+
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"]
+  input[type="identificacion"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color:#cfb316;
+  }
+  
+  button i {
+    margin-right: 5px;
+  }
+  
+  .animated-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #c82333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .animated-button:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: left 0.3s;
+  }
+  
+  .animated-button:hover:before {
+    left: 0;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  header {
+      background-color: #aa1111;
+      box-shadow: 10px 5px 10px rgb(194, 191, 191);
+      align-items: end;
+      justify-content: space-around;
+    }
+  
+  
+  .logo{
+    max-width: 100px;
+    height: auto;
+    margin-left: 620px;
+  }
+  
+  .titulo{
+    order: 5;
+  }
+  
+  .titulo {
+      font-family: Arial, Helvetica, sans-serif;
+      color: aliceblue;
+      position: relative;
+      text-align: center;
+  }
+  
+  
+  .hytext nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hytext nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  nav ul li a:hover,
+  nav ul li a.active {
+    background-color: #f0a709; 
+  }
+  
+  .hytext li {
+    margin: 30px;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 5px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .bg {
+    background-color: #f1efe3;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  
+  }
+
+.footer-distributed {
+  background: rgb(63, 23, 23);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 20px sans-serif;
+  padding: 55px 50px;
+  font-family: Open Sans;
+  margin-top: 100px;
+  font-family: Arial;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer Derecho */
+
+.footer-distributed .footer-left {
+  width: 40%;
+}
+
+.footer-distributed .footer-left a {
+  color: #dd1709;
+}
+
+/* Logo */
+
+.footer-distributed h3 {
+  color:  #ffffff;
+  font: normal 36px Arial;
+  margin: 0;
+}
+
+.footer-distributed h3 span {
+  color: #dd1709;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+  color:  #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color:  #ffffff;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Centro */
+
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center i {
+  background-color:  rgb(59 12 12);
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 400;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+  color:  #8B4513;
+  text-decoration: none;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight: 300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  width: 20%;
+  background-color: rgb(63 23 23);
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+  font-family: Arial;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color:  #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 880px) {
+  .footer-distributed {
+      font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+      display: block;
+      width: 100%;
+      margin-bottom: 40px;
+      text-align: center;
+  }
+
+  .footer-distributed .footer-center i {
+      margin-left: 0;
+  }
+
+  .hytext {
+      padding: 1%;
+      
+  }
+
+}
+
+.background-pattern {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('firefighter-pattern.png') repeat;
+  z-index: -1;
+}
+
+.login-container {
+  position: relative;
+  z-index: 1;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color:#cfb316;
+}
+
+button i {
+  margin-right: 5px;
+}
+
+.animated-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #c82333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.animated-button:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: left 0.3s;
+}
+
+.animated-button:hover:before {
+  left: 0;
+}
