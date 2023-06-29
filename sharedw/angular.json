@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "AppB": {
+    "sharedw": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/app-b",
+            "outputPath": "dist/sharedw",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "AppB:build:production"
+              "browserTarget": "sharedw:build:production"
             },
             "development": {
-              "browserTarget": "AppB:build:development"
+              "browserTarget": "sharedw:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "AppB:build"
+            "browserTarget": "sharedw:build"
           }
         },
         "test": {
@@ -94,8 +94,5 @@
         }
       }
     }
-  },
-  "cli": {
-    "analytics": "6c5427e1-ffe9-4449-b760-ef7b4f15bc28"
   }
 }
