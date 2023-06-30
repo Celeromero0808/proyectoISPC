@@ -3,13 +3,12 @@
     box-shadow: 10px 5px 10px rgb(194, 191, 191);
     align-items: end;
     justify-content: space-around;
+    text-align: center;
   }
-
 
 .logo{
   max-width: 100px;
   height: auto;
-  margin-left: 620px;
 }
 
 .titulo{
