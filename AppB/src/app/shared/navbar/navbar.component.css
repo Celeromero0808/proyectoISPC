@@ -1,4 +1,12 @@
 
+.header {
+  background-color: #570e0e;
+  box-shadow: 10px 5px 10px rgb(194, 191, 191);
+  align-items: end;
+  justify-content: space-around;
+}
+
+
 .hytext nav ul {
     list-style: none;
     margin: 0;
