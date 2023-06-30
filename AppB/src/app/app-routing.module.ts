@@ -1,5 +1,6 @@
-import { Component, NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';//cargar el modulo de Routing
+//definimos componentes para 
 
 import { HomeComponent } from './pages/home/home.component';
 import { HistorialsiniComponent } from './pages/historialsini/historialsini.component';
@@ -15,7 +16,8 @@ const routes: Routes = [{path:'Home',component: HomeComponent},
   {path:'Personal',component: PersonalComponent},
   {path:'Registro',component: RegistroComponent},
   {path:'Registrodesiniestro',component:RegistrodesiniestroComponent},
-  {path:'Tutorial',component: TutorialComponent}
+  {path:'Tutorial',component: TutorialComponent},
+  {path:'',redirectTo:'/Home',pathMatch:'full'},
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

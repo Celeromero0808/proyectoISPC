@@ -3,24 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module'; //modulo routing
 import { AppComponent } from './app.component';
-import { SharedModule } from './shared/shared.module';
-import { PagesModule } from './pages/pages.module'
-import { ReactiveFormsModule } from '@angular/forms';//importar modulo para formularios reactivos
 
-
+import { HeaderComponent } from './shared/header/header.component';
+import { NavbarComponent } from './shared/navbar/navbar.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    HeaderComponent,
+    NavbarComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SharedModule,
-    PagesModule,
-
-    ReactiveFormsModule,
-    
+       
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,2 +1,0 @@
-# proyectoISPC
-Este proyecto consiste en crear un aplicación web interna dirigida a nuestros <<clientes>> los bomberos voluntarios General San Martín de La Falda. Esta deberá tener un sistema de Login donde los usuarios se registran  según su rango, también registrar cada siniestro incluido el personal que acudió y el equipo. Se tiene pensado realizar una sección inicial de la página dirigida al público en general.
