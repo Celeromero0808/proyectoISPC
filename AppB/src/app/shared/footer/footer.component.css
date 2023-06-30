@@ -1,5 +1,5 @@
 .footer-distributed {
-    background: rgb(63, 23, 23);
+    background: rgb(219, 75, 75);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
@@ -38,7 +38,7 @@
   }
   
   .footer-distributed h3 span {
-    color: #dd1709;
+    color: #e03529;
   }
   
   /* Footer links */
@@ -71,7 +71,7 @@
   }
   
   .footer-distributed .footer-center i {
-    background-color:  rgb(59 12 12);
+    background-color:  rgb(255, 60, 60);
     color: #ffffff;
     font-size: 25px;
     width: 38px;
@@ -124,7 +124,8 @@
   
   .footer-distributed .footer-right {
     width: 20%;
-    background-color: rgb(63 23 23);
+    background-color:  rgb(255, 60, 60);
+    background-color:
   }
   
   .footer-distributed .footer-company-about {
