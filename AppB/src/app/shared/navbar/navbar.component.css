@@ -1,0 +1,42 @@
+
+.hytext nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hytext nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  nav ul li a:hover,
+  nav ul li a.active {
+    background-color: #f0a709; 
+  }
+  
+  .hytext li {
+    margin: 30px;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  header nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 5px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
